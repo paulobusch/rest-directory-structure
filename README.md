@@ -1,13 +1,13 @@
-# Arquitetura montada a partir do padrão REST
+# Padrão REST na estrutura de pastas da aplicação
 ## Proposta
-[o] Geração automática das rotas REST, a partir da estrutura de pastas do projeto
-[o] Separação de responsabilidades de cada end-point em seu respectivo arquivo
-[o] Geração de uma documetação simples das rotas da API
+[ ] Geração automática das rotas REST, a partir da estrutura de pastas do projeto
+[ ] Separação de responsabilidades de cada end-point em seu respectivo arquivo
+[ ] Geração de uma documetação simples das rotas da API
    
 ## Opções
-[o] Compile: Compila as rotas para uma documentação HTML
-[o] GetRouters: Obtem as rotas da estrutura
-[o] SetConfig: Definir as configurações 
+[ ] Compile: Compila as rotas para uma documentação HTML
+[ ] GetRouters: Obtem as rotas da estrutura
+[ ] SetConfig: Definir as configurações 
 
 ## Exemplo
 ```
