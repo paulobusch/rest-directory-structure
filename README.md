@@ -1,4 +1,5 @@
 # Padrão REST na estrutura de pastas da aplicação
+## Frase "Crie um arquivo e tenha um end-point"
 ## Proposta
 - [ ] Geração automática das rotas REST, a partir da estrutura de pastas do projeto
 - [ ] Separação de responsabilidades de cada end-point em seu respectivo arquivo

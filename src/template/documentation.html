@@ -1,0 +1,68 @@
+<html>
+    <header>
+        <title>Simples Documentação</title>
+    </header>
+    <style>
+        * { font-family: sans-serif; }
+        table {
+            padding: 10px;
+            border: 1px solid #666;
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px #aaa;
+        }
+
+        table th {
+            width: 150px;
+            color: black;
+            font-size: 18pt;
+            text-align: start;
+        }
+        
+        table tr td {
+            padding: 5px 0;
+            font-size: 13pt;
+        }
+
+        table td:first-child {
+            font-weight: bold;
+        }
+
+        .method {
+            padding: 5px;
+            width: fit-content;
+            background-color: #ff6a00;
+            border-radius: 10px;
+            color: #fff;
+            background-color: #0037ff;
+        }
+    </style>
+    <body>
+        <h2>Documentação<h2>
+        <table>
+            <thead>
+                <th>Metodo</th>
+                <th>Rota</th>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </body>
+    <script>
+        let routers = ${rows};
+        const elTbody = document.getElementsByTagName('tbody');
+        for(let router of routers){
+            const tr = document.createElement('tr');
+            const tdMethod = document.createElement('td');
+            const divMethod = document.createElement('div');
+            const tdRouter = document.createElement('td');
+            divMethod.className = 'method';
+            divMethod.innerText = router.method.toUpperCase();
+            tdRouter.innerText = router.path;
+            tdMethod.appendChild(divMethod);
+            tr.appendChild(tdMethod);
+            tr.appendChild(tdRouter);
+            elTbody[0].appendChild(tr);
+        }
+
+    </script>
+</html>
