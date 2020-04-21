@@ -1,0 +1,13 @@
+{
+    "input": "rest",
+    "files": {
+        "get": ["get", "list"],
+        "post": ["create"],
+        "put": ["update"],
+        "delete": ["delete"]
+    },
+    "params": {
+        "identifier": "@",
+        "separator": ","
+    }    
+}
